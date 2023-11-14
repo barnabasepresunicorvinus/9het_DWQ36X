@@ -21,6 +21,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.UseDefaultFiles();
+app.MapControllers();
 app.UseStaticFiles();
 
 app.MapControllers();
